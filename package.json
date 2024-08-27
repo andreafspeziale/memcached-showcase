@@ -1,0 +1,17 @@
+{
+  "name": "memcached-showcase",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bluebird": "^3.5.42",
+    "@types/bun": "latest",
+    "@types/memcached": "^2.2.10"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "memcached": "^2.2.2"
+  }
+}
